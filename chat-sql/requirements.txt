@@ -1,0 +1,20 @@
+# Core app
+streamlit
+
+# LangChain and tooling
+langchain
+langchain-community
+
+# SQL database support
+sqlalchemy
+mysql-connector-python
+
+# SQLite is part of Python stdlib, but SQLAlchemy needs it enabled
+# So no need to pip install sqlite3 separately
+
+# LLM API integration (GROQ and potentially OpenAI interfaces)
+openai
+groq
+
+# Optional: only if using .env files for secrets (e.g., api keys)
+python-dotenv
